@@ -1,0 +1,25 @@
+.container{
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.container img{
+    width: 100%;
+    height:  75%;
+}
+
+.hero-card{
+    background-color: grey;
+    position: relative;
+    margin-top: 3rem;
+    padding: 1px;
+}
+
+.title{
+    text-align: center;
+    background: rgba(63, 63, 63, 0.476);
+    color: white;
+}
