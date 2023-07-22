@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+body{
+    background:rgba(128, 128, 128, 0.221)
+}
+
+h2{
+    font-family: 'Arimo', sans-serif;
+    padding: 0.2rem;
+}
