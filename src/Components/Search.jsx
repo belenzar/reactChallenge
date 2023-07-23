@@ -8,7 +8,7 @@ const Search = ({search}) =>{
         setText(q)
         search(q)
     }
-
+ 
     return(
         <section className="search">
             <h1 className="header_title">Marvel</h1>

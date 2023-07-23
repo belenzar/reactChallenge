@@ -5,7 +5,7 @@ import Search from "./Search.jsx";
 import HeroList from "./HeroList.jsx";
 import NotFound from "./NotFound.jsx"  
 import axios from "axios";
-
+ 
 function MainHeader() {
   const [url, setUrl] = useState(
     "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=14b572098c0d78f84fd91619a3b9f2a6&hash=3708c7ce25ce998cfdde2fd3da6bd316"
