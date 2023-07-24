@@ -13,14 +13,6 @@ function MainHeader() {
   const [hero, setHero] = useState();
   const [query, setQuery] = useState("");
 
-  /* useEffect(()=>{
-        const fetch = async () => {
-            const response = await axios.get(url)
-            setHero(response.data.data.results)
-        }
-        fetch()
-    }, [url])*/
-
   useEffect(() => {
     const fetch = async () => {
       if (query === "") {

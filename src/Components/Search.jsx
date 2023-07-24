@@ -7,7 +7,7 @@ const Search = ({search}) =>{
     const onSearch = (q) => {
         setText(q)
         search(q)
-    }
+    } 
  
     return(
         <section className="search">
